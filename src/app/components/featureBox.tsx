@@ -7,7 +7,7 @@ interface BoxProps {
     alt:string,
     title:string,
     description:string
-    bigBox:boolean
+  
 }
 
 interface Data {
@@ -16,20 +16,21 @@ interface Data {
     alt:string,
     title:string,
     description:string
-    bigBox:boolean
+   
     }[]
 }
 
 
 const FeatureBox:React.FC<BoxProps> = ({
     src,alt,title,description,
-    bigBox
+    
 }) => {
 
     return (
         <div className={`w-[90vw] mx-auto p-4 mb-8
         border border-[#0251a1] rounded-xl sm:w-[40vw]
         bg-gradient-to-b from-[#001F3F] to-[#0356a8] 
+        md:h-[350px]
         `}>
             <Image
             src={src}
@@ -52,10 +53,10 @@ const FeatureBoxes:React.FC<Data> = ({
 
 
     return (
-        <section className="md:h-screen">
+        <section className="">
         <AppearingGradient
-  text="Elevate Your Restaurant"
-  subText="Reimagine service. Delight every customer."
+  text="Focused and ready to work"
+  subText="Here are some of my general attributes that make me someone you want on your team"
   
 
 />

@@ -106,34 +106,73 @@ export const codingCarousel = [
 
 export const generalAttributes = [
     {
-        title:'Fast worker',
-        description:`I am a very focused individual, whos life revolves around producing valuable
-        difficult to replicate work. This committment of 3-4 hours a day of 
-        deep work allows me to produce websites and work at a quick rate.`
+        src:'/check.svg',
+        alt:'',
+        title:'Fast worker and strong focus',
+        description:`I am a very focused individual, who's life revolves around producing valuable
+        difficult to replicate work. This commitment of 3-4 hours a day of 
+        deep work allows me to produce websites and work at a quick rate.
+        I truly enjoy working and improving my skills to become the best I can
+        be.`,
+     
     },
     {
+        src:'/book-open.svg',
+        alt:'',
         title:'Always learning',
         description:`I have many intrests and have always had a desire to learn why things
         are the way they are, this has lead me to reading 60+ books across
         various subjects like human physcology, quantum phyiscs,
         neuroscience fitness and much more. I hope to one day be able
         to combine these various subjects together to make some cool and
-        useful stuff`
+        useful stuff`,
+       
     },
     {
-        title:'Very dedicated',
+        src:'/bar-chart-3.svg',
+        alt:'',
+        title:'Very dedicated and consistent',
         description:`What ever I have committed myself to in my life, 
-        `
+        I have spent a significant amount of effort into improving
+        at it, wether it was 10 years of competitive basketball, drawing
+        fitness or making websites I have always given lots of effort and make
+        significant improvement and I will do the same in your company.,
+
+        `,
+       
     },
-    // {
-    //     title:'High energy and pain tolerance'
-    // },
-    // {
-    //     title:'Ability to learn'
-    // },
-    // {
-    //     title:'Creative individual'
-    // }
+    {
+        src:'/anchor.svg',
+        alt:'',
+        title:'High energy and endurance',
+        description:`Through a lifetime of commitment
+        to intense physical training, I have developed
+        a high work capacity and have been toughened up through
+        injury which helps me keep pushing through work when times get
+        tough. This allows me to be consistent and perform in tough situations
+        which will help produce more work on in the long run.`
+    },
+    {
+        src:'/sun.svg',
+        alt:'An image of the sun to signify creativity',
+        title:'A creative individual',
+        description:`Creativity is simply connecting things 
+        through exposing myself to various subjects and infueneces
+        I am able to string together unique ideas and can always think of a
+        project to get to work on. Also through reverse engineering
+        and emulating influences and ideas I like, I can combine different
+        ideas together to create something new.`
+    },
+    {
+        src:'/dollar-sign-2.svg',
+        alt:'The dollar sign to signify the strive for greatness',
+        title:'Strive for greatness',
+        description:`Whatever the situation I'm in, I will always 
+        strive for the best outcome and do whatever it takes to get it done.
+        I truly want to become better everyday and will train hard
+        to prove this. There is always room to improve and more work to
+        do and will show up everyday and do my best.`
+    }
 ]
 
 export const artCarousel = [
@@ -141,9 +180,21 @@ export const artCarousel = [
         url:'/aboubacar-5-fire.png',
         title:'Aboubacar 5'
     },
+    {
+        url:'/quantum-striker-pose.png',
+        title:'The Quantum Striker'
+    },
     {   
         url:'/aboubacar-6.jpg',
         title:'Aboubacar 6'
+    },
+    {
+        url:'/q3-visuals-logo-2.png',
+        title:'The Quantum Meditator'
+    },
+    {
+        url:'/aboubacar4.png',
+        title:'Aboubacar 4'
     },
     {
         url:'/goku-vegeta-and-broly.jpg',
@@ -157,22 +208,13 @@ export const artCarousel = [
         url:'/majin-vegeta.png',
         title:'Majin Vegeta'
     },
-    {
-        url:'/q3-visuals-logo-2.png',
-        title:'The Quantum Meditator'
-    },
-    {
-        url:'/aboubacar4.png',
-        title:'Aboubacar 4'
-    },
+
+  
     {
         url:'kakashi_susanoo.jpg',
         title:'Kashi and a susanoo'
     },
-    {
-        url:'/quantum-striker-pose.png',
-        title:'The Quantum Striker'
-    },
+ 
     {
         url:'/tobi.jpg',
         title:'Tobi'
@@ -190,5 +232,12 @@ export const artCarousel = [
     {
         url:'/vegeta-battle.png',
         title:'Vegeta in battle'
+    },
+    {
+        url:'/goku-vs-jiren.jpg',
+        title:'Goku vs jiren'
     }
 ]
+
+
+export const promoVid ='/focusflow-promotional-video1.mp4'

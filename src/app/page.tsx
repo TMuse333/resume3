@@ -1,13 +1,16 @@
 "use client"
 
 import { experienceCard1, experienceCard2, experienceCard3,
-codingCarousel, artCarousel } from "@/data/data";
+codingCarousel, artCarousel, generalAttributes } from "@/data/data";
 import Image from "next/image";
 import AppearingGradient from "./components/appearingGradient";
+import AppearingSquare from "./components/appearingSquare";
 import ExperienceCard from "./components/experienceCard";
+import FeatureBoxes from "./components/featureBox";
 import Carousel from "./components/gridCarousel";
 import Herobanner from "./components/herobanner";
 import StickyCarousel from "./components/stickyCarousel";
+import { promoVid } from "@/data/data";
 
 export default function Home() {
   return (
@@ -33,10 +36,23 @@ export default function Home() {
     images={codingCarousel}
     />
 
+    <FeatureBoxes
+    boxData={generalAttributes}
+    />
+
+    <AppearingSquare
+    sliderText="Other creative skills"
+    src={promoVid}
+    id='promo-video'
+    isVideo={true}
+    />
+
 <AppearingGradient
 text="Artist at Heart"
 subText="Long before web dev I was an artist, here is some of my favorite hand-drawn digital art!"
 />
+
+
     <Carousel
     isGrid={true}
     images={artCarousel}
