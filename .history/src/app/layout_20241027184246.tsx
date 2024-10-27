@@ -16,18 +16,18 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Thomas Musial resume",
-  description: "This is the resume of Thomas Musial, a web developer who brings absolute focus and tenacity to any project he is on.",
+  description: "This is the resume of Thomas Musial, a web developer who brings ",
   keywords: "web design halifax, custom web design services, creative web page design, web designer halifax",
   openGraph: {
     title: "Thomas Musial Resume",
-    description: "Learn why Thomas Musial is the man to take you to the next level",
+    description: "Experience the fastest and most creative web design Halifax solutions with Focus Flow Software.",
     url: "https://thomasmusial.vercel.app",
     images: [
       {
-        url: "https://thomasmusial.vercel.app/tom-side-angle.png",
+        url: "https://www.focusflowsoftware.com/media/focusFlow-logo.png",
         width: 1200,
         height: 630,
-        alt: "Thomas Musial"
+        alt: "Focus Flow Software - Creative and Fast Web Design"
       }
     ],
     type: "website",

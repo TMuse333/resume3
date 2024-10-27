@@ -216,7 +216,7 @@ style={{
         </ul>
         {/* <Link
         href={buttonDestination}> */}
-        {/* <motion.button id='closing-button'
+        <motion.button id='closing-button'
         style={{
             backgroundImage
         }}
@@ -227,7 +227,7 @@ style={{
          shadow-lg shadow-all-around
          ">
           Contact
-        </motion.button> */}
+        </motion.button>
         {/* </Link> */}
       </section>
     </section>

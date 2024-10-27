@@ -119,8 +119,7 @@ const Closer = ({
   
   return (
     <section ref={scope} className=" relative
-   "
-   id='closer'
+   id="closer"
     style={{
         background: 'radial-gradient(circle, #00bfff -150%, rgba(0, 191, 255, 0%) 80%)'
         
@@ -216,7 +215,7 @@ style={{
         </ul>
         {/* <Link
         href={buttonDestination}> */}
-        {/* <motion.button id='closing-button'
+        <motion.button id='closing-button'
         style={{
             backgroundImage
         }}
@@ -227,7 +226,7 @@ style={{
          shadow-lg shadow-all-around
          ">
           Contact
-        </motion.button> */}
+        </motion.button>
         {/* </Link> */}
       </section>
     </section>

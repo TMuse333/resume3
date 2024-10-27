@@ -26,7 +26,7 @@ const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
     });
   }, []);
 
-  function scrollToElementById(id:string) {
+  function scrollToElementById(id) {
     const element = document.getElementById(id);
     if (element) {
         element.scrollIntoView({
@@ -87,7 +87,7 @@ digital presences and currently learning how to do lead generation with my next 
 
 
         <motion.button
-        onClick={()=>scrollToElementById('closer')}
+        onClick={()=>scrollToElement}
           style={{
             border,
             boxShadow,

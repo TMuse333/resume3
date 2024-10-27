@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     url: "https://thomasmusial.vercel.app",
     images: [
       {
-        url: "https://thomasmusial.vercel.app/tom-side-angle.png",
+        url: "https://www.thomasmusial.vercel.app/thomas-side-angle.png",
         width: 1200,
         height: 630,
-        alt: "Thomas Musial"
+        alt: "Focus Flow Software - Creative and Fast Web Design"
       }
     ],
     type: "website",

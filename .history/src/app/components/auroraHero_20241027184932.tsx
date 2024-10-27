@@ -87,7 +87,7 @@ digital presences and currently learning how to do lead generation with my next 
 
 
         <motion.button
-        onClick={()=>scrollToElementById('closer')}
+        onClick={()=>scrollToElement('closer')}
           style={{
             border,
             boxShadow,

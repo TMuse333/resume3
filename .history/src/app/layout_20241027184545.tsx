@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: "https://thomasmusial.vercel.app/tom-side-angle.png",
         width: 1200,
         height: 630,
-        alt: "Thomas Musial"
+        alt: "
       }
     ],
     type: "website",
