@@ -67,8 +67,7 @@ const AppearingSquare: React.FC<ContentProps> = ({
                 <p id={`p-${id}`} className="text-left px-4 opacity-0 my-6
                 mx-auto max-w-[900px] md:text-lg">
                  I also have been into design for a very long time, doing animations,
-                 digital art and video editing since I was young. Here is some&nbsp;
-                 <span className="font-bold">AI Generate animations for promotional videos.</span>
+                 digital art 
 
                     <br/>
                     <br/>

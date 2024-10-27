@@ -68,7 +68,7 @@ const AppearingSquare: React.FC<ContentProps> = ({
                 mx-auto max-w-[900px] md:text-lg">
                  I also have been into design for a very long time, doing animations,
                  digital art and video editing since I was young. Here is some&nbsp;
-                 <span className="font-bold">AI Generate animations for promotional videos.</span>
+                 <span className="font-bold">AI Generate animations for promotional videos</span>
 
                     <br/>
                     <br/>
