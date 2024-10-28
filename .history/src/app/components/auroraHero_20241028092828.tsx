@@ -103,7 +103,7 @@ digital presences and currently learning how to do lead generation with my next 
           Lets get to work
           {/* <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" /> */}
         </motion.button>
-   
+        </Link>
       </div>
 
       
