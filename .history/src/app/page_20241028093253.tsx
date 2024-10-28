@@ -60,14 +60,7 @@ export default function Home() {
     <FeatureBoxes
     boxData={generalAttributes}
     />
-    
-    <AppearingSquare
-    isVideo
-    src={promoVid}
-    id='promo-video'
-    sliderText="Other design skills"
-    />
-    
+
     <FlashContent
     src={moneyball.src}
     alt="The moneyball to represent earning more money from marketing"/>

@@ -61,12 +61,6 @@ export default function Home() {
     boxData={generalAttributes}
     />
     
-    <AppearingSquare
-    isVideo
-    src={promoVid}
-    id='promo-video'
-    sliderText="Other design skills"
-    />
     
     <FlashContent
     src={moneyball.src}
