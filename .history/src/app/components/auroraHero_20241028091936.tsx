@@ -61,7 +61,7 @@ const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
         </h1>
         <Image
             src={side}
-            priority
+            pro
           
             height={600}
             width={1300}

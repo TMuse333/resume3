@@ -3,13 +3,16 @@
 import { experienceCard1, experienceCard2, experienceCard3,
 codingCarousel, generalAttributes, bookCarousel,
 imageTextBox2 } from "@/data/data";
-import { lazy } from "react";
+
 import AuroraHero from "./components/auroraHero";
 import ExperienceCard from "./components/experienceCard";
 import FeatureBoxes from "./components/featureBox";
 
-
-
+import StickyCarousel from "./components/stickyCarousel";
+import { promoVid } from "@/data/data";
+import ImageTextBox from "./components/imageTextBox";
+import TextFormat from "./components/textFormat";
+import marketing from '../../public/laptop-growth.webp'
 
 
 
@@ -52,8 +55,6 @@ export default function Home() {
     description="My primary skill is creating visually appealing, animated websites with next js. I have spent 1100 hours since august 2023 (3-4 hours of coding everyday) honing this craft. Here are some of the aspects of my front end engineering skills."
     images={codingCarousel}
     />
-
-    <div className="h-[40vh]"/>
 
     <AppearingSquare
     isVideo

@@ -53,7 +53,7 @@ export default function Home() {
     images={codingCarousel}
     />
 
-    <div className="h-[40vh]"/>
+    <div className="h-["
 
     <AppearingSquare
     isVideo
