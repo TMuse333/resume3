@@ -205,9 +205,7 @@ style={{
                 <Link
                 className=" relative z-[3]"
                 href={social.url}
-                >
-
-              
+                
                 <Image
                 src={social.src}
                 alt={social.alt}
@@ -215,7 +213,6 @@ style={{
                 bg-gray-500
                 object-contain  rounded-2xl'
                 />
-                  </Link>
             </li>
         ))}
         </ul>
