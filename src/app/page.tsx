@@ -16,16 +16,16 @@ import FeatureBoxes from "./components/featureBox";
 const StickyCarousel = lazy(() => import("./components/stickyCarousel"));
 import { promoVid } from "@/data/data";
 const ImageTextBox = lazy(() => import("./components/imageTextBox"));
-const TextFormat = lazy(() => import("./components/textFormat"));
-import marketing from '../../public/laptop-growth.webp';
+
 
 const FlashContent = lazy(() => import("./components/flashContent"));
 import moneyball from '../../public/moneyball.webp';
 const ScrollCarousel = lazy(() => import("./components/scrollCarousel"));
-const Testimonials = lazy(() => import("./components/testimonials"));
+
 const AppearingSquare = lazy(() => import("./components/appearingSquare"));
 
 import Closer from "./components/closer";
+import ElectricContainer from "./components/electricContainer";
 
 export default function Home() {
   return (
@@ -80,14 +80,23 @@ export default function Home() {
 
 
     <ImageTextBox
-    src={marketing.src}
+    description={`I have started posting 
+    coding tutorials on my youtube channel
+    to help others make cool animations on
+    their own websites and to deepen
+    my own knowledge and make sure I know
+    what I am doing.`}
+  
     alt="The marketing laptop"
-    title="Current learnings"
+    title="Youtube Tutorials"
+   
     reverse
-    customText={<TextFormat
-    reverse={true}
-    isAnimated={true}/>
-    }
+   
+    
+    iframe={<iframe
+      className="absolute h-full w-full"
+    src="https://www.youtube.com/embed/jG37sILjFIw?si=wDB3SyXe5uZ1aoco" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>}
+    
     />
 
     <ImageTextBox
@@ -100,7 +109,9 @@ export default function Home() {
  images={bookCarousel}
  />
 
-<Testimonials/>
+{/* <Testimonials/> */}
+
+<ElectricContainer/>
 
     {/* <Carousel
     isGrid={true}

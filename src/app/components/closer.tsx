@@ -9,7 +9,7 @@ import { useGeneralContext } from "@/context/context";
 import ig from '../../../public/ig-logo.webp'
 import linkedIn from '../../../public/linkedin-logo.jpg'
 import yt from '../../../public/youtube.jpg'
-import side from '../../../public/tom-side-angle.png'
+import side from '../../../public/tom-side-angle.webp'
 
 
 const Closer = ({

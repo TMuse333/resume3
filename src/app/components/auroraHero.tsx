@@ -9,7 +9,7 @@ import {
   animate,
 } from "framer-motion";
 
-import side from '../../../public/tom-side-angle.png'
+import side from '../../../public/tom-side-angle.webp'
 import Image from "next/image";
 
 

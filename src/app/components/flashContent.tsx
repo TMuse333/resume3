@@ -46,10 +46,8 @@ const FlashContent: React.FC<Props> = ({ src, alt }) => {
                     }}
                 />
                 <motion.p className='px-4 mx-auto md:w-[80%] md:text-lg rounded-2xl text-white text-left '>
-                My design skills are strong, and as I 
-    continue refining my Next.js expertise, I’m expanding into the realm of data-driven marketing. 
-    Recognizing the high value of actionable insights, I’m now focused on integrating social media APIs 
-    to gather meaningful data, which can drive lead generation strategies for clients.
+               Implementing analytics and other node js and marketing
+               my web design skills
     <br/><br/>
     By combining visually engaging, high-performance designs with data analysis, my goal is to create 
     Next.js applications that not only enhance user experience but also support business growth through 

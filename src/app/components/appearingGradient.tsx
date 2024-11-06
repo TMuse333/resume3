@@ -60,7 +60,7 @@ const {isMobile} = useGeneralContext()
     return (
        
             <section ref={scope} className='
-            pt-12 relative mb-10' >
+            pt-12 relative mb-10 mx-auto' >
                 <div
                     id={`${text}-line`}
                     className={`w-[0vw] mx-auto absolute z-[3]
