@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'react-feather';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useGeneralContext } from '@/context/context';
-
+import { useGeneralContext } from '../../context/context';
 
 interface CarouselProps {
   images: {

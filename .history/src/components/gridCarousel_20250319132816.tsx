@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'react-feather';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useGeneralContext } from '@/context/context';
 
 
 interface CarouselProps {
@@ -28,7 +27,7 @@ const Carousel: React.FC<CarouselProps> = ({ images, hasDescription,
   const [carouselClicked, setCarouselClicked] = useState(false);
   const [isCoolDown, setIsCoolDown] = useState(false);
 
-  const {isMobile} = useGeneralContext()
+
     const [gridClicked, setGridClicked] = useState(false)
 
   const coolDownTime = 1000;

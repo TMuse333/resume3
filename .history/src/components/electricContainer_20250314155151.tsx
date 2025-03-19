@@ -132,7 +132,7 @@ const ElectricContainer = ({
     
 
     
-
+    const [selectedIndex, setSelectedIndex] = useState(0)
 
    
 

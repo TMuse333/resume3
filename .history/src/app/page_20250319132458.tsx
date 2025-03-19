@@ -1,15 +1,13 @@
 "use client"
 
 import { experienceCard1, experienceCard2, experienceCard3,
-// codingCarousel,
- generalAttributes,
-  bookCarousel,
-// imageTextBox2,
- previousExperience,
+codingCarousel,
+ generalAttributes, bookCarousel,
+imageTextBox2, previousExperience,
 codingStats,
 codingAttributes} from "@/data/data";
 import { lazy } from "react";
-// import AuroraHero from "../components/auroraHero";
+import AuroraHero from "../components/auroraHero";
 import ExperienceCard from "../components/experienceCard";
 import FeatureBoxes from "../components/featureBox";
 
@@ -19,7 +17,7 @@ import FeatureBoxes from "../components/featureBox";
 
 
 // const StickyCarousel = lazy(() => import("../components/stickyCarousel"));
-// import { promoVid } from "@/data/data";
+import { promoVid } from "@/data/data";
 // const ImageTextBox = lazy(() => import("../components/imageTextBox"));
 
 

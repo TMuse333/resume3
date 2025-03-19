@@ -19,7 +19,7 @@ import FeatureBoxes from "../components/featureBox";
 
 
 // const StickyCarousel = lazy(() => import("../components/stickyCarousel"));
-// import { promoVid } from "@/data/data";
+import { promoVid } from "@/data/data";
 // const ImageTextBox = lazy(() => import("../components/imageTextBox"));
 
 
