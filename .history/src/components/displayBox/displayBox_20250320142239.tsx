@@ -56,8 +56,8 @@ const Element:React.FC<ElementProps> = ({
       animate={isInView ? "visible" : "hidden"}
       className={`w-[90vw] mx-auto flex mt-2 neutral-gradient-bg p-4 rounded-2xl
         flex-col justify-center items-center relative mb-4 border border-4 
-        md:h-[40vw] md:max-h-[500px] shadow-[0_0_25px_#e7c696]
-        sm:w-[45vw]  mb-8`}
+        md:h-[40vw] max-h-[500px] shadow-[0_0_25px_#e7c696]
+        sm:w-[45vw] max-w-[500px] mb-8`}
     >
       <motion.h2
         variants={childVariants}
