@@ -60,7 +60,7 @@ const ContactForm = () => {
     id="contact"
     className="w-full flex flex-col items-center
     bg-gradient-to-b from-[#002B5B] via-[#004C8C] to-[#0066CC] mt-12">
-      <section className="flex flex-col md:flex-row justify-around items-center max-w-[1200px] w-full">
+      <section className="flex flex-col-reverse md:flex-row justify-around items-center max-w-[1200px] w-full">
         <section className="mb-16 text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl mt-4">
            Ready to work
@@ -93,7 +93,7 @@ const ContactForm = () => {
         </section>
 
         <section className="mt-12 w-full max-w-[455px]">
-          <h3 className="mb-4 text-left text-lg ml-4">Fill out the form with your message</h3>
+          <h3 className="mb-4 text-left text-lg">Fill out the form with your requirements:</h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             {applicationQuestions.map((question, index) => (
               <div key={index} className="flex flex-col px-4
