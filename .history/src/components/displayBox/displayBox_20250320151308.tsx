@@ -133,7 +133,7 @@ interface DisplayBoxProps {
              pt-5">
                 <div className="absolute
                 top-1/2 w-full
-                hidden md:block
+                hidden md:
                  sm:top-0
                 left-1/2 -translate-x-1/2 h-[5px]
                  md:h-full
